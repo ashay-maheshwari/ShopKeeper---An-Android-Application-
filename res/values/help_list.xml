@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="helpOptions">
+   <item name="whyToUse">Why should I use this App?</item>
+   <item name="insert">How to Insert Data??</item>
+   <item name="manage">How can I manage my records??</item>
+    
+    
+    </string-array>
+</resources>

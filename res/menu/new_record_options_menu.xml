@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/home" android:title="HOME" />
+    <item android:id="@+id/back" android:title="BACK" />
+    <item android:id="@+id/exit" android:title="EXIT" />
+    <item android:id="@+id/call" android:title="MAKE A CALL" />
+    <item android:id="@+id/sharestuff" android:title="SHARE YOUR STUFF" />
+    
+    <item android:id="@+id/message" android:title="SEND MESSAGE" />
+
+</menu>

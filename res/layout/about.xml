@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textSize="15sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+         android:background="@drawable/blood1"
+        android:text="ENABLE SOUND"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/button1"
+        android:layout_alignLeft="@+id/button1"
+         android:background="@drawable/blood1"
+        android:layout_marginBottom="16dp"
+        android:text="ABOUT DEVELOPERS"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
